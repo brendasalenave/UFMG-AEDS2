@@ -1,4 +1,4 @@
-/*TRABALHO PR�TICO 2 - ALGORITMO E ESTRUTURA DE DADOS II - UFMG 2013
+/*TRABALHO PRATICO 2 - ALGORITMO E ESTRUTURA DE DADOS II - UFMG 2013
 JUNIO CEZAR RIBEIRO DA SILVA */
 #include <iostream>
 #include <fstream>
@@ -32,9 +32,9 @@ int main(){
     MAPA buscador;
     int op;
     //NOMES DOS QUATRO ARQUIVOS DE TEXTO QUE SER�O LIDOS.
-    ARQUIVOS[0]="Harry Potter e a Pedra Drogada.txt";
+    ARQUIVOS[0]="Harry Potter e a Pedra Filosofal.txt";
     ARQUIVOS[1]="Contos Eroticos do Antigo Testamento.txt";
-    ARQUIVOS[2]="Crepusculo Amanhecer.txt";
+    ARQUIVOS[2]="Livro.txt";
     ARQUIVOS[3]="Viagens Maravilhosas ao Mundo Desconhecido.txt";
     //ETAPA PARA LER OS QUATRO ARQUIVOS E CRIA��O DO �NDICE INVERTIDO
     for(int i=0; i<4; i++){
